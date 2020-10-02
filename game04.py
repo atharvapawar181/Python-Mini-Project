@@ -65,20 +65,7 @@ score = 0
 chances = 2
 
 
-def res():
-    global word, answer, num
-    num = random.randrange(0, 25, 1)
-    lbl.config(text=word[num])
-    e1.delete(0, END)
 
-
-def res1():
-    global word, answer, num, score, chances
-    num = random.randrange(0, 25, 1)
-    lbl.config(text=word[num])
-    e1.delete(0, END)
-    score = 0
-    chances = 2
 
 
 def default():
